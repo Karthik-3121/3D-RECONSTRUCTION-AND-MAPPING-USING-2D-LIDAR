@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find ydlidar_ros_driver)/launch/X4.launch" />  
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ydlidar_ros_driver)/launch/lidar2.rviz" />
+<node type="rotate_frame.py" pkg="ydlidar_ros_driver" name="rotate_frame" output="screen"></node>s
+	
+</launch>
