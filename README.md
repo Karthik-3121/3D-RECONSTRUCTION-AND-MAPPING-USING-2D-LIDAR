@@ -2,7 +2,7 @@
 A versatile system including software integration for the movement of the rover, receiving data from the 2D lidar, interfacing the 2D lidar data to the master control system, and maneuvering the rover to map different locations of the environment. 3D Lidar data is acquired simultaneously and in real-time.
 
 
-Software Requirments:
+##Software Requirments:
 
 	Ubuntu 18 or Ubuntu 20 on rpi for installation of ROS melodic/noetic
 	ROS has to be installed,if not follow the steps below
@@ -11,13 +11,13 @@ Software Requirments:
 
 
 
-Hardware Requirments:
+##Hardware Requirments:
 
 	Rpi 4GB RAM or above
     YD LiDAR X4
 
 
-Follow the steps below to install ROS:
+##Follow the steps below to install ROS:
 
 	sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 	sudo apt install curl
@@ -32,7 +32,7 @@ Follow the steps below to install ROS:
 	sudo rosdep init
 	rosdep update
 
-Follow the steps to install YD Lidar package:
+##Follow the steps to install YD Lidar package:
 
 	In Home directory do,
 
@@ -60,7 +60,7 @@ Follow the steps to install YD Lidar package:
 		sudo sh src/ydlidar_ros_driver/startup/initenv.sh
 
 
-Execution Steps:
+##Execution Steps:
 
 	Initialisation:
 
@@ -71,10 +71,18 @@ Execution Steps:
 		
 		roslaunch ydlidar_ros_driver lidar_view.launch 
 
-Images:
+##Images:
+
+	3D LiDAR OUTPUT:
 	![Lidar Ouput](images/OutPut3D.PNG)
 	
-
+	Components:
+	![Ecosystem](images/Components.JPG)
+	
+	Rover:
+	![Rover 1](images/Rover1.JPEG)
+	![Rover 2](images/Rover2.JPEG)
+	
 
 
 
