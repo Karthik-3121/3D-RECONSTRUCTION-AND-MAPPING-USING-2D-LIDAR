@@ -72,7 +72,7 @@ Execution Steps:
 		roslaunch ydlidar_ros_driver lidar_view.launch 
 
 Images:
-	![Lidar Ouput](images/OutPut3D.png)
+	![Lidar Ouput](images/OutPut3D.PNG)
 	
 
 
