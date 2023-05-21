@@ -71,17 +71,17 @@ Execution Steps:
 		
 		roslaunch ydlidar_ros_driver lidar_view.launch 
 
-Images:
+# Images:
 
-	## 3D LiDAR OUTPUT:
-	![Lidar Ouput](images/OutPut3D.PNG)
+## 3D LiDAR OUTPUT:
+![Lidar Ouput](images/OutPut3D.PNG)
 
-	## Components:
-	![Ecosystem](images/components.JPG)
+## Components:
+![Ecosystem](images/components.JPG)
 
-	## Rover:
-	![Rover 1](images/Rover1.jpeg)
-	![Rover 2](images/Rover2.jpeg)
+## Rover:
+![Rover 1](images/Rover1.jpeg)
+![Rover 2](images/Rover2.jpeg)
 
 
 
